@@ -21,7 +21,7 @@
     >
         <nav class="max-w-7xl mx-auto flex justify-between items-center">
             <a
-                href="https://github.com/ItzCyzmiX/Chat-Verse-App/releases"
+                href="/"
                 class="text-4xl font-bold bg-gradient-to-r from-white to-gray-200 bg-clip-text text-transparent"
                 >ChatVerse</a
             >
@@ -81,7 +81,7 @@
                     <p class="text-gray-400 mb-6">
                         Available now on Github
                     </p>
-                    <a href="/" class="block w-full">
+                    <a href="https://github.com/ItzCyzmiX/Chat-Verse-App/releases" class="block w-full">
                         <button
                             class="w-full min-h-[48px] px-6 py-3 bg-white text-black font-bold rounded-full hover:scale-105 transition-all duration-300 shadow-[0_0_15px_rgba(255,255,255,0.1)] hover:shadow-[0_0_30px_rgba(255,255,255,0.2)]"
                         >
