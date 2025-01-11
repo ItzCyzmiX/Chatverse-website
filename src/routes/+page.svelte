@@ -141,7 +141,7 @@
         ></div>
       </div>
     </main>
-  {/if}
+
   <!-- Features Section -->
   <section class="py-24 relative bg-transparent">
     <div class="max-w-7xl mx-auto px-4 bg-transparent">
@@ -265,4 +265,5 @@
       </p>
     </div>
   </footer>
+  {/if}
 </div>
