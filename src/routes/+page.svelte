@@ -1,3 +1,13 @@
+<script>
+    import { onMount } from "svelte";
+    import { fly } from "svelte/transition";
+  
+  let loaded = $state(false)
+  onMount(() => {
+    loaded = true
+  })
+</script>
+
 <svelte:head>
     <title>ChatVerse - Create and Chat with AI Bots</title>
 </svelte:head>
@@ -15,8 +25,8 @@
             <h1 class="text-4xl font-bold bg-gradient-to-r from-white to-gray-200 bg-clip-text text-transparent">ChatVerse</h1>
         </nav>
     </header>
-
-    <main class="flex-grow flex flex-col lg:flex-row items-center justify-center gap-12 px-4 py-16 relative mt-6">
+    {#if loaded}
+    <main class="flex-grow flex flex-col lg:flex-row items-center justify-center gap-12 px-4 py-16 relative mt-6" in:fly={{ y: 50, duration: 1000 }}>
         <!-- Left side content -->
         <div class="text-center lg:text-left lg:w-1/2 z-10">
             <h2 class="text-6xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-white via-gray-100 to-white bg-clip-text text-transparent">
@@ -47,7 +57,7 @@
             <div class="absolute -inset-1 bg-gradient-to-r from-white/0 via-white/10 to-white/0 blur-xl opacity-50 -z-10"></div>
         </div>
     </main>
-
+    {/if}
     <!-- Features Section -->
     <section class="py-24 relative bg-transparent">
         <div class="max-w-7xl mx-auto px-4 bg-transparent">
