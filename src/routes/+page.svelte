@@ -25,7 +25,7 @@
             <p class="text-2xl mb-12 text-gray-300">
                 Create, explore, and chat with unique AI personalities crafted by the community.
             </p>
-            <a class="group relative px-8 py-4 bg-white text-black font-bold rounded-full hover:scale-105 transition-all duration-300 shadow-[0_0_15px_rgba(255,255,255,0.1)] hover:shadow-[0_0_30px_rgba(255,255,255,0.2)]">
+            <a href="/download" class="group relative px-8 py-4 bg-white text-black font-bold rounded-full hover:scale-105 transition-all duration-300 shadow-[0_0_15px_rgba(255,255,255,0.1)] hover:shadow-[0_0_30px_rgba(255,255,255,0.2)]">
                 Get the App
                 <span class="absolute inset-0 rounded-full bg-white/30 blur-md group-hover:blur-xl transition-all duration-300 -z-10"></span>
             </a>
