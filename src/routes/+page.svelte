@@ -94,6 +94,7 @@
       >
         ChatVerse
       </h1>
+<a class="justify-end text-4xl text-white" href="https://ai-chat-verse.vercel.app">Check Now!</a>
     </nav>
   </header>
   {#if loaded}
